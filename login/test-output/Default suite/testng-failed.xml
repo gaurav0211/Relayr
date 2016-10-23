@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="relayr.login.NewTest">
+        <methods>
+          <include name="positiveTest"/>
+          <include name="negativeTestEmptyPassword"/>
+          <include name="negativeTestEmptyMail"/>
+          <include name="close"/>
+          <include name="negativeTestInvalidMail"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- relayr.login.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
